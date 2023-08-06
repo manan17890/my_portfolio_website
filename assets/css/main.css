@@ -162,7 +162,7 @@ sup {
 }
 
 a {
-  color: #000000;
+  color: #2543c9;
   text-decoration: none;
   background-color: transparent;
 }
@@ -2728,7 +2728,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #212529;
+  color: #ffffff;
   text-align: center;
   vertical-align: middle;
   -webkit-user-select: none;
@@ -7142,13 +7142,13 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #F85C70 !important;
+  background-color: #ffffff !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
 button.bg-primary:hover,
 button.bg-primary:focus {
-  background-color: #f62b45 !important;
+  background-color: #ffffff !important;
 }
 
 .bg-secondary {
