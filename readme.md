@@ -1,38 +1,44 @@
+# vCard - Personal portfolio
 
-# My Portfolio Website
+![GitHub repo size](https://img.shields.io/github/repo-size/codewithsadee/vcard-personal-portfolio)
+![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
+![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
+[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
+[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
 
-Welcome to my portfolio website! I am a coder with a passion for creating innovative and user-friendly software. I have experience in a variety of programming languages, including Python, HTML, CSS, React Native, JavaScript, and C. I am also proficient in web development and design.
-
-On this website, you can find a selection of my work, including my personal projects, open-source contributions, and professional work. I also share my thoughts on the latest trends in technology and my insights on the future of coding.
-
-I am always looking for new challenges and opportunities to learn and grow. If you are interested in working with me, please contact me through my website.
-
-
-## 🚀 About Me
-I'm a full stack developer...
-
-Just Chill and do Wonders
-
-Any fool can write code that a computer can understand. Good programmers write code that humans can understand.
-## Authors
-
-- [@Mananveer Singh Jodhka](https://github.com/manan17890)
-- [@Its Codingz](https://github.com/its-codingz)
-
-
-![Logo](https://itscodingz.carrd.co/assets/images/image01.jpg?v=19edf2a3)
-
+vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
 
 ## Demo
 
-https://mananveer-portfolio.vercel.app/
+![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
+![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
+## Prerequisites
 
-## 🛠 Skills
-Javascript, HTML, CSS , Python , C , React Native , MySql.
+Before you begin, ensure you have met the following requirements:
 
+* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
 
-## Support
+## Installing vCard
 
-For support, email mananveer3608@gmail.com || itscodingz@gmail.com or join our Telegram channel.
+To install **vCard**, follow these steps:
 
+Linux and macOS:
+
+```bash
+sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+Windows:
+
+```bash
+git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
+```
+
+## Contact
+
+If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+
+## License
+
+MIT
