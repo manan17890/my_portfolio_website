@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mananveer's Portfolio</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Mananveer Singh" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mananveer Singh">Mananveer Singh</h1>
+
+          <p class="title">Web developer | Graphic Designer</p>
+          <!--
+          <p>&nbsp;</p>
+          <p class="title">Photographer | Video Editor</p>  
+          -->
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mananveer3608@gmail.com" class="contact-link">mananveer3608@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+918146559039" class="contact-link">+91 8146559039</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-06-08">June 08, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <a href="https://maps.app.goo.gl/kkc2R2EJotYVpK9a9"><address>Ludhiana, Punjab, India</address></a>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://mananveer.carrd.co" class="social-link">
+              <ion-icon name="link-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/manan17890" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/manan.s.jodhka" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mananveer-singh-jodhka-72b3781bb" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://wa.me/918146559039" class="social-link">
+              <ion-icon name="logo-whatsapp"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li>
+          <!--
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
+          </li>
+          -->
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hi, I'm Mananveer Singh, a multifaceted professional from Ludhiana, Punjab, India, with expertise in web development, 
+            graphic design, video editing, and social media management. As the founder of "Its Codingz," I've been delivering custom, 
+            high-quality websites and graphic designs to diverse businesses since January 2022.
+          </p>
+
+          <p>
+            Currently, I'm pursuing a Bachelor of Computer Applications at PCTE Group of Institutes, aiming to expand my knowledge and 
+            practical skills in computer applications. My commitment to excellence is reflected in testimonials from clients like MG Wonder, 
+            Body and Beyond, Jaggi Minerals and Chemicals, and IFF Academy, who commend my creativity, professionalism, and attention to detail.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Website development</h4>
+
+                <p class="service-item-text">
+                  I specialize in creating high-quality websites tailored to meet professional standards, ensuring functionality, design, and user experience are optimized for your needs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Graphic Designs</h4>
+
+                <p class="service-item-text">
+                  I provide professional graphic design services, crafting visuals that align with your brand and requirements to create impactful and creative designs.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-python.svg" alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Python</h4>
+
+                <p class="service-item-text">
+                  I offer comprehensive Python teaching, creating hands-on lessons, and guiding real-world projects to build strong programming skills and confidence in coding.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I capture stunning, high-quality photos across various categories, ensuring professional standards in every shot to meet your specific requirements.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Gagan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Gagandeep</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Mananveer was an absolute pleasure! He created a stunning logo for my brand that perfectly 
+                    encapsulates my vision and also developed a professional, user-friendly website for my business. His 
+                    attention to detail and creativity exceeded my expectations. Highly recommended!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Radhika Chauhan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Radhika Chauhan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mananveer has been instrumental in elevating my business's online presence. He developed a sleek and functional 
+                    website that matches my brand's identity. Additionally, his expertise in social media management has significantly 
+                    boosted engagement and brought in new clients. I’m truly impressed by his professionalism and results!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Harpreet" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Harpreet Singh</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mananveer did an exceptional job developing my website. He understood my requirements perfectly and delivered a site 
+                    that is both aesthetically pleasing and highly functional. His communication and commitment throughout the process were 
+                    top-notch. I couldn't have asked for a better experience.
+                  </p>
+                  <br>
+                  <time datetime="2021-06-14">1 December, 2024</time>
+                </div>
+
+              </div>
+            </li>
+
+            
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.jpg" alt="Mohak Chauhan" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Mohak Chauhan</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Mananveer’s social media management services have been a game-changer for my business. He developed 
+                    a clear strategy, created engaging content, and managed my accounts with utmost dedication. The results 
+                    have been phenomenal, with increased visibility and interactions. I’m grateful for his efforts!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-5.jpg" alt="Nehaa Khanna" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Nehaa Khanna</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Working with Mananveer was a fantastic experience. He designed all our posters and banners with 
+                    exceptional creativity and attention to detail. Each design not only looked amazing but communicated 
+                    our message perfectly. His forward-thinking approach ensures your brand stands out — not just now, 
+                    but in the future too. Highly recommended!
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <!-- <time datetime="2021-06-14">14 June, 2021</time> -->
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="https://mgwonder.com">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">MG Wonder</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://bodyandbeyond.org">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Body & Beyond</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.jaggimineralsandchemicals.in/">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Jaggi Minerals and Chemicals</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.iffacademy.in">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">IFF Academy</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.instagram.com/cranberriofficial/">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Cranberri</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.instagram.com/jarurat.care/">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Jarurate Care Foundation</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.playbook.com/s/its-codingz/portfolio/wBtsjjwggFMBKJzHY51HRukb">
+                <img src="./assets/images/logo-7-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Tech Company</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.instagram.com/umeed.ind/">
+                <img src="./assets/images/logo-8-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Umeed</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.playbook.com/s/its-codingz/portfolio/Jxa1pinpUHmDeT5sz4FUs1aE">
+                <img src="./assets/images/logo-9-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">NK Productions</p></center>
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="https://www.playbook.com/s/its-codingz/portfolio/vscoEnn2exgowxQosGQnTHsk">
+                <img src="./assets/images/logo-10-color.png" alt="client logo">
+                <center><p style="color: white; margin-top: 2mm;">Assisted Home Charitable Trust</p></center>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="library-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">DAV Public School, Ludhiana, Punjab</h4>
+
+              <span>April 2011 — March 2023</span>
+
+              <p class="timeline-text">
+                I completed my schooling and high school in Commerce at DAV Public School, where I developed a strong academic 
+                foundation while nurturing my passion for robotics and programming. My time at school allowed me to explore 
+                technology and problem-solving, laying the groundwork for my journey in the tech field.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">PCTE Group of Institutes, Ludhiana, Punjab</h4>
+
+              <span>July 2023 — Present</span>
+
+              <p class="timeline-text">
+                I am pursuing a Bachelor of Computer Applications (BCA) at PCTE Group of Institutes (July 2023 - April 2026), 
+                where I am gaining expertise in programming, web development, and database management. The program combines 
+                theoretical knowledge with hands-on experience, preparing me for a successful career in the IT industry.
+              </p>
+
+            </li>
+
+            <!--
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+            -->
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Founder</h4>
+              <h4 class="h5">"Its Codingz"</h4>
+
+              <span>Jan 2022 — Present</span>
+
+              <p class="timeline-text">
+                As the founder of Its Codingz, I lead a dynamic web development business specializing in crafting custom, 
+                high-quality websites and graphic designs for businesses of all sizes since 2022.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Student Ambassador</h4>
+              <h4 class="h5">"ICP HUB India > Crewsphere"</h4>
+
+              <span>April 2024 — Present</span>
+
+              <p class="timeline-text">
+                I am serving as a liaison between the ICP Hub Crewsphere team and the PCTE student body.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Website Developer</h4>
+
+              <span>June 2020 — Present</span>
+
+              <p class="timeline-text">
+                As a website developer since June 2020, I specialize in crafting dynamic and user-friendly websites tailored to clients' 
+                needs, leveraging my expertise in HTML, CSS, JavaScript, and beyond.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Graphic Designer</h4>
+
+              <span>June 2023 — Present</span>
+
+              <p class="timeline-text">
+                As a graphic designer since June 2023, I create visually compelling and impactful designs that 
+                effectively communicate brand identities and messages across various digital and print platforms.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">President - Video Editing Department</h4>
+              <h4 class="h5">"That Benzene Ring"</h4>
+
+              <span>July 2023 — Feb 2024</span>
+
+              <p class="timeline-text">
+                As President of the Video Editing Department from July 2023 to Feb 2024, 
+                I led a team of talented editors to produce high-quality content with creative flair and precision.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Intern - Human Resource Department</h4>
+              <h4 class="h5">"LernX"</h4>
+
+              <span>Aug 2023 —  Sep 2023</span>
+
+              <p class="timeline-text">
+                As an HR intern at LernX from July to September 2023, 
+                I supported various HR functions, including recruitment, onboarding, and employee relations, contributing to 
+                organizational effectiveness and employee engagement.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Main Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Website Development</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 82%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 79%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Photography</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 88%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Videography</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Video Editing</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <!-- <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Wix</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li> -->
+
+          </ul>
+
+          <p>&NonBreakingSpace;</p>
+
+          <h3 class="h3 skills-title">My Programming skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">HTML</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 77%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">CSS</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 74%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">JavaScript</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Python</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 92%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">MySQL</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 78%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">React Native</h5>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Industry</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Health</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Portfolio</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Agency</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Industry</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Health</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Portfolio</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Agency</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="industry">
+              <a href="https://mgwonder.com" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Tapes" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MG Wonder PVC Tapes</h3>
+
+                <p class="project-category">Industry</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="health">
+              <a href="https://www.bodyandbeyond.org/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="B&B" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Body and Beyond Clinic</h3>
+
+                <p class="project-category">Health</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="industry">
+              <a href="https://www.jaggimineralsandchemicals.in/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="JMC" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Jaggi Minerals and Chemicals</h3>
+
+                <p class="project-category">Industry</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="portfolio">
+              <a href="https://mananveer.wixsite.com/dr-varun-gupta" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="DRVG" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Dr. Varun Gupta</h3>
+
+                <p class="project-category">Portfolio</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="agency">
+              <a href="https://itscodingz-website.vercel.app/" target="_blank">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="Its Codingz" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Its Codingz</h3>
+
+                <p class="project-category">Agency</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG
+      
+
+      <article class="blog" data-page="blog">
+
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
+
+        <section class="blog-posts">
+
+          <ul class="blog-posts-list">
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
+
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
+
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li class="blog-post-item">
+              <a href="#">
+
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
+
+                <div class="blog-content">
+
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
+
+                    <span class="dot"></span>
+
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
+
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
+
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+      -->
+
+
+
+      <!--
+        - #CONTACT
+      -->
+
+      <article class="contact" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54776.13337418095!2d75.81547368284245!3d30.900412322217885!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391a837462345a7d%3A0x681102348ec60610!2sLudhiana%2C%20Punjab!5e0!3m2!1sen!2sin!4v1715347739515!5m2!1sen!2sin" 
+            width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </figure>
+        </section>
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="laptop-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Contact Info</h3>
+              </div>
+    
+              <ol class="timeline-list">
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Email</h4>
+    
+                  <a href="mailto:mananveer3608@gmail.com" class="contact-link"><span>mananveer3608@gmail.com</span></a>
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Mobile Number</h4>
+    
+                  <a href="tel:+918146559039" class="contact-link"><span>+91 8146559039</span></a>
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">WhatsApp</h4>
+    
+                  <a href="https://wa.me/918146559039" class="contact-link"><span>@Mananveer-Singh</span></a>
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">All links at one place</h4>
+    
+                  <a href="https://mananveer.carrd.co/" class="contact-link"><span>Links Hub</span></a>
+    
+                </li>
+    
+              </ol>
+    
+            </section>
+
+            <section class="timeline">
+
+              <div class="title-wrapper">
+                <div class="icon-box">
+                  <ion-icon name="share-social-outline"></ion-icon>
+                </div>
+    
+                <h3 class="h3">Social Media</h3>
+              </div>
+    
+              <ol class="timeline-list">
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Instagram</h4>
+    
+                  <a href="https://www.instagram.com/manan.s.jodhka/" class="contact-link"><span>@manan.s.jodhka</span></a>
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">Github</h4>
+    
+                  <a href="https://github.com/manan17890" class="contact-link"><span>@manan17890</span></a>
+    
+                </li>
+    
+                <li class="timeline-item">
+    
+                  <h4 class="h4 timeline-item-title">LinkedIn</h4>
+    
+                  <a href="https://www.linkedin.com/in/mananveer-singh-jodhka-72b3781bb" class="contact-link"><span>Mananveer Singh Jodhka</span></a>
+    
+                </li>
+    
+              </ol>
+    
+            </section>
+
+          </ul>
+
+        </section>
+
+        
+
+        <section class="contact-form">
+
+          <h3 class="h3 form-title">Contact Form</h3>
+
+          <form action="#" class="form" data-form>
+
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
+
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
+
+          </form>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
