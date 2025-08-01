@@ -6,13 +6,13 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072424/Home_Page_sztopk.png" alt="project-screenshot" width="1920" height="400/">
+<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072424/Home_Page_sztopk.png" alt="project-screenshot" width="1920" height="2126/">
 
-<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072503/Resume_ew0zmd.png" alt="project-screenshot" width="1920" height="400/">
+<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072503/Resume_ew0zmd.png" alt="project-screenshot" width="1920" height="3197/">
 
-<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072503/Portfolio_tmyohy.png" alt="project-screenshot" width="1920" height="400/">
+<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072503/Portfolio_tmyohy.png" alt="project-screenshot" width="1920" height="1102/">
 
-<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072502/Contact_eqdhbu.png" alt="project-screenshot" width="1920" height="400/">
+<img src="https://res.cloudinary.com/duocjacd4/image/upload/v1754072502/Contact_eqdhbu.png" alt="project-screenshot" width="1920" height="1880/">
 
   
   
