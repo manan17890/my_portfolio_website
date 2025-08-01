@@ -30,4 +30,4 @@ Technologies used in the project:
 
 <h2>💖Like my work?</h2>
 
-For an query do message at mananveer3608@gmailcom
+For an query do message at mananveer3608@gmail.com
